@@ -1,9 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
 main {
   font-family: 'Heebo', sans-serif;
 }
@@ -20,7 +23,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 10vh
+  min-height: 10vh;
 }
 
 .nav-links {
@@ -35,7 +38,7 @@ nav {
 
 #logo {
   color: rgb(243, 33, 65);
-  font-family: 'Lobster', ;
+  font-family: 'Lobster';
   font-weight: lighter;
   font-size: 2rem;
 }
@@ -48,7 +51,7 @@ nav {
   font-size: 5rem;
   font-family: 'Heebo';
   text-align: right;
-  color: rgb(245, 241, 241)
+  color: rgb(245, 241, 241);
 }
 
 .intro {
